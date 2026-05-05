@@ -38,7 +38,7 @@ The purpose of this lab was to understand how IPv6 communication works across di
 **Observation:**
 - Devices support both IPv4 and IPv6 communication  
 - `ping` uses IPv4 while `ping6` uses IPv6  
-- Both protocols can operate simultaneously  
+- Both protocols operate simultaneously  
 
 ---
 
