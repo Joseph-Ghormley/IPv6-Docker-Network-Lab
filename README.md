@@ -14,13 +14,13 @@ The lab focuses on connectivity, routing behavior, and packet encapsulation usin
 ## Network Topologies
 
 ### 1. IPv6-Only Network
-![IPv6 Diagram](diagrams/simple-ipv6.png)
+![IPv6 Diagram](simple-ipv6.png)
 
 ### 2. Dual Stack (IPv4 + IPv6)
-![Dual Stack Diagram](diagrams/dual-stack.png)
+![Dual Stack Diagram](dual-stack.png)
 
 ### 3. IPv6 over IPv4 Tunnel
-![Tunnel Diagram](diagrams/ipv6-tunnel.png)
+![Tunnel Diagram](ipv6-tunnel.png)
 
 ---
 
