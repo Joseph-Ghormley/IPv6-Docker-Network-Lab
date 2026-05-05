@@ -20,7 +20,7 @@ The IPv6-over-IPv4 tunnel topology includes:
 
 IPv6 traffic travels between H1N6 and H2N6 while passing through an IPv4-only core network.
 
-![Network Topology](images/topology.png)
+![IPv6 Ping Success](IPv6%20Tunnel%20over%20IPv4%20%E2%80%93%20Successful%20Ping%20from%20H1N6%20to%20H2N6.png)
 
 ---
 
