@@ -7,17 +7,17 @@ This project demonstrates the implementation and analysis of three networking en
 - Dual Stack network (IPv4 + IPv6)  
 - IPv6 over IPv4 tunneling (Protocol 41)  
 
-The goal of this lab was to understand how IPv6 communication works across different network configurations and how tunneling allows IPv6 traffic to traverse IPv4 infrastructure.
+The purpose of this lab was to understand how IPv6 communication works across different network configurations and how IPv6 traffic can be transported over an IPv4-only network using tunneling.
 
 ---
 
 ## What I Did
 
-- Deployed multiple Docker-based network topologies using provided `.yml` files  
+- Deployed Docker-based network topologies using provided `.yml` files  
 - Verified connectivity using `ping`, `ping6`, and `curl`  
-- Inspected routing tables using `ip route` and `ip -6 route`  
-- Captured live network traffic using `tcpdump`  
-- Analyzed how IPv6 packets are encapsulated inside IPv4 packets  
+- Analyzed routing tables using `ip route` and `ip -6 route`  
+- Captured traffic using `tcpdump`  
+- Observed IPv6 encapsulation inside IPv4 packets  
 
 ---
 
@@ -27,8 +27,8 @@ The goal of this lab was to understand how IPv6 communication works across diffe
 ![IPv6 Diagram](simple-ipv6.png)
 
 **Observation:**
-- Devices communicated using only IPv6 addresses  
-- Routing required proper IPv6 configuration across routers  
+- Communication occurs only over IPv6 addresses  
+- Proper IPv6 routing must be configured across routers  
 
 ---
 
@@ -36,8 +36,9 @@ The goal of this lab was to understand how IPv6 communication works across diffe
 ![Dual Stack Diagram](dual-stack.png)
 
 **Observation:**
-- Devices successfully communicated using both IPv4 and IPv6  
-- The protocol used depended on whether `ping` or `ping6` was executed  
+- Devices support both IPv4 and IPv6 communication  
+- `ping` uses IPv4 while `ping6` uses IPv6  
+- Both protocols can operate simultaneously  
 
 ---
 
@@ -45,8 +46,8 @@ The goal of this lab was to understand how IPv6 communication works across diffe
 ![Tunnel Diagram](ipv6-tunnel.png)
 
 **Observation:**
-- IPv6 traffic successfully traversed an IPv4-only network  
-- Tunnel endpoints on dual-stack routers enabled communication  
+- IPv6 packets successfully travel through an IPv4-only network  
+- Tunnel endpoints on dual-stack routers enable encapsulation  
 
 ---
 
