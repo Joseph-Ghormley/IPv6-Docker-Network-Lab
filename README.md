@@ -50,7 +50,7 @@ Result:
 - 2 packets received
 - 0% packet loss
 
-![IPv6 Ping Success](images/ping-success.png)
+![Ping Success](images/ping-success.png)
 
 ---
 
@@ -68,7 +68,7 @@ Result:
 - Reverse communication worked correctly
 - This confirms bidirectional IPv6 connectivity
 
-![Reverse Connectivity](images/reverse-ping.png)
+![Reverse Ping](images/reverse-ping.png
 
 ---
 
@@ -86,7 +86,7 @@ Result:
 - The web page was retrieved over IPv6
 - This confirms that services can communicate across the IPv6 tunnel
 
-![HTTP Connection Test](images/http-test.png)
+![HTTP Test](images/http-test.png)
 
 ---
 
@@ -104,8 +104,7 @@ Result:
 - The output showed `Time exceeded: Hop limit`
 - This demonstrates that routers drop packets when the IPv6 hop limit reaches zero
 
-![Hop Limit Failure](images/hop-limit-failure.png)
-
+![TTL Failure](images/ttl-failure.png)
 ---
 
 ## Tunnel Traffic Analysis
@@ -122,7 +121,7 @@ Observation:
 - Protocol 41 confirmed IPv6-over-IPv4 tunneling
 - This proves that the IPv6 packets were carried through the IPv4 core network
 
-![Tunnel Traffic Analysis](images/tcpdump-proto41.png)
+![Tcpdump](images/tcpdump.png)
 
 ---
 
@@ -144,7 +143,7 @@ Result:
 - Default routes were configured correctly
 - Routing tables confirmed that traffic had a valid path across the topology
 
-![Routing Table Verification](images/routing-table.png)
+![Routing Tables](images/routing-table.png)
 
 ---
 
@@ -163,7 +162,7 @@ Result:
 - IPv6 communication succeeded
 - This confirms that the dual stack network supports both protocols at the same time
 
-![Dual Stack Connectivity](images/dual-stack-connectivity.png)
+![Dual Stack](images/dual-stack.png)
 
 ---
 
