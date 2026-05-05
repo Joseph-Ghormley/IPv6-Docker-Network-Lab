@@ -50,7 +50,7 @@ Result:
 - 2 packets received
 - 0% packet loss
 
-![Ping Success](images/ping-success.png)
+![IPv6 Ping Success](IPv6%20Tunnel%20over%20IPv4%20%E2%80%93%20Successful%20Ping%20from%20H1N6%20to%20H2N6.png)
 
 ---
 
@@ -68,7 +68,7 @@ Result:
 - Reverse communication worked correctly
 - This confirms bidirectional IPv6 connectivity
 
-![Reverse Ping](images/reverse-ping.png
+![Reverse Ping](IPv6%20Tunnel%20over%20IPv4%20%E2%80%93%20Successful%20Reverse%20Ping%20from%20H2N6%20to%20H1N6.png)
 
 ---
 
@@ -86,7 +86,7 @@ Result:
 - The web page was retrieved over IPv6
 - This confirms that services can communicate across the IPv6 tunnel
 
-![HTTP Test](images/http-test.png)
+![HTTP Test](IPv6%20Tunnel%20Reachability%20%E2%80%93%20H1N6%20to%20H2N6%20Ping%20and%20HTTP%20Access%20over%20Tunnel.png)
 
 ---
 
@@ -104,7 +104,7 @@ Result:
 - The output showed `Time exceeded: Hop limit`
 - This demonstrates that routers drop packets when the IPv6 hop limit reaches zero
 
-![TTL Failure](images/ttl-failure.png)
+![TTL Failure](IPv6%20Network%20Limitation%20%E2%80%93%20Ping%20Failure%20with%20TTL%20Constraint%20(-t2).png))
 ---
 
 ## Tunnel Traffic Analysis
@@ -121,7 +121,8 @@ Observation:
 - Protocol 41 confirmed IPv6-over-IPv4 tunneling
 - This proves that the IPv6 packets were carried through the IPv4 core network
 
-![Tcpdump](images/tcpdump.png)
+![Tcpdump](IPv6%20Tunnel%20Traffic%20Analysis%20%E2%80%93%20R2N4%20tcpdump%20Showing%20IPv6%20Encapsulated%20in%20IPv4%20(Protocol%2041).png)
+
 
 ---
 
@@ -143,7 +144,7 @@ Result:
 - Default routes were configured correctly
 - Routing tables confirmed that traffic had a valid path across the topology
 
-![Routing Tables](images/routing-table.png)
+![Routing Tables](Dual%20Stack%20Routing%20Tables%20%E2%80%93%20IPv4%20and%20IPv6%20Routes%20on%20R1N64%20and%20R2N64.png)
 
 ---
 
@@ -162,7 +163,7 @@ Result:
 - IPv6 communication succeeded
 - This confirms that the dual stack network supports both protocols at the same time
 
-![Dual Stack](images/dual-stack.png)
+![Dual Stack Ping](Dual%20Stack%20Connectivity%20%E2%80%93%20IPv4%20and%20IPv6%20Ping%20Success%20from%20H1N64.png)
 
 ---
 
