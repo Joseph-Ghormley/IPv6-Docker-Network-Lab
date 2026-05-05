@@ -33,7 +33,7 @@ The goal of this lab was to understand how IPv6 communication works across diffe
 ---
 
 ### Dual Stack Network (IPv4 + IPv6)
-![Dual Stack Diagram](diagrams/dual-stack.png)
+![Dual Stack Diagram](dual-stack.png)
 
 **Observation:**
 - Devices successfully communicated using both IPv4 and IPv6  
@@ -42,7 +42,7 @@ The goal of this lab was to understand how IPv6 communication works across diffe
 ---
 
 ### IPv6 over IPv4 Tunnel
-![Tunnel Diagram](diagrams/ipv6-tunnel.png)
+![Tunnel Diagram](ipv6-tunnel.png)
 
 **Observation:**
 - IPv6 traffic successfully traversed an IPv4-only network  
