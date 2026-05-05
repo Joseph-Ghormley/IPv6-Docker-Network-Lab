@@ -104,7 +104,7 @@ Result:
 - The output showed `Time exceeded: Hop limit`
 - This demonstrates that routers drop packets when the IPv6 hop limit reaches zero
 
-![TTL Failure](IPv6%20Network%20Limitation%20%E2%80%93%20Ping%20Failure%20with%20TTL%20Constraint%20(-t2).png))
+![TTL Failure](IPv6%20Network%20Limitation%20%E2%80%93%20Ping%20Failure%20with%20TTL%20Constraint%20(-t2).png)
 ---
 
 ## Tunnel Traffic Analysis
