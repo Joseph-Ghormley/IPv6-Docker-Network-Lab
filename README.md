@@ -24,7 +24,7 @@ The goal of this lab was to understand how IPv6 communication works across diffe
 ## Network Topologies
 
 ### IPv6-Only Network
-![IPv6 Diagram](diagrams/simple-ipv6.png)
+![IPv6 Diagram](simple-ipv6.png)
 
 **Observation:**
 - Devices communicated using only IPv6 addresses  
