@@ -57,3 +57,14 @@ The purpose of this lab was to understand how IPv6 communication works across di
 
 ```bash
 docker exec H1N6 ping -c2 fd00:1003::5
+
+**Result:**
+- Successful responses confirm end-to-end IPv6 connectivity.
+
+---
+
+### Hop Limit Behavior (TTL Test)
+
+```bash
+docker exec H1N6 ping -c2 -t2 fd00:1003::5
+
