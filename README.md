@@ -160,10 +160,14 @@ docker exec H1N64 ping -c2 fd00:1003::5
 Result:
 
 - IPv4 communication succeeded
+![Dual Stack Ping](Dual%20Stack%20Connectivity%20%E2%80%93%20IPv4%20and%20IPv6%20Ping%20Success%20from%20H1N64.png)
+
 - IPv6 communication succeeded
+![Dual Stack Ping](Dual%20Stack%20Connectivity%20%E2%80%93%20IPv4%20and%20IPv6%20Ping%20Success%20from%20H1N64.png)
+
 - This confirms that the dual stack network supports both protocols at the same time
 
-![Dual Stack Ping](Dual%20Stack%20Connectivity%20%E2%80%93%20IPv4%20and%20IPv6%20Ping%20Success%20from%20H1N64.png)
+
 
 ---
 
