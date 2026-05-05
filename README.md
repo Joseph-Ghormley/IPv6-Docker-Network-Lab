@@ -165,7 +165,11 @@ Result:
 - IPv6 communication succeeded
 ![Dual Stack Ping](Dual%20Stack%20Connectivity%20%E2%80%93%20IPv4%20and%20IPv6%20Ping%20Success%20from%20H1N64.png)
 
-- This confirms that the dual stack network supports both protocols at the same time
+This confirms that the dual stack network supports both IPv4 and IPv6 simultaneously. 
+Successful communication over both protocols demonstrates that routing tables, 
+interfaces, and addressing are correctly configured for each protocol stack.
+
+This is important because real-world networks must support both legacy IPv4 and modern IPv6 during transition phases.
 
 
 
